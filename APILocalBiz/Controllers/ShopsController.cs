@@ -49,13 +49,6 @@ namespace APILocalBiz.Controllers
       _db.SaveChanges();
     }
 
-    // GET api/shops/random
-    [HttpGet]
-    public ActionResult<Shop> Get()
-    {
-      // return a random Shop
-    }
-
     // GET api/shops/3  
     [HttpGet("{id}")]
     public ActionResult<Shop> Get(int id)
