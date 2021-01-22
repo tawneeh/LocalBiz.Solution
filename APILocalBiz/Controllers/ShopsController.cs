@@ -77,3 +77,5 @@ namespace APILocalBiz.Controllers
 }
 
 // All endpoints functional EXCEPT PUT is returning 415 error
+
+// Attempt to reinsert original dummy data via a new Migration and Database Update did not change the current state of the Database. Will research this. I expected the changes I had made in Postman to revert back to the original dummy data upon a new migration/update based on the unchanged data in APILocalBizContext. Also, lunchtime! 
