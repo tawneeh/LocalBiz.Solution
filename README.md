@@ -50,6 +50,16 @@ Launch this Application
 * Then, in the same API project folder, type `dotnet build` into the terminal followed by `dotnet run`
 * Peruse full CRUD functionality via Postman or other API Client
 
+## API Documentation
+
+Feel free to naviagte through the API endpoints via Postman or another API Client. 
+
+Base URL: `http://localhost:5000`
+
+#### Accessing SwaggerUI
+
+Launch the project from the APILocalBiz project folder by typing `dotnet run` into the terminal. Input `http://localhost:5000/swagger` to view and interact with the Swashbuckle SwaggerUI.
+
 ## Known Bugs
 
 This application currently does not include a Client side project. 
