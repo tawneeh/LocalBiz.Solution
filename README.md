@@ -48,14 +48,14 @@ Import Database using Entity Framework Core
 Launch this Application
 * Navigate to LocalBiz.Solution/APILocalBiz and type `dotnet restore` into the terminal
 * Then, in the same API project folder, type `dotnet build` into the terminal followed by `dotnet run`
-* Peruse full CRUD functionality via Postman or other API Client
+* Peruse full CRUD functionality via Postman or another API Client
 
 ## 	📝 API Documentation
 
-Feel free to naviagte through the API endpoints via Postman or another API Client. 
+Feel free to navigate through the API endpoints via Postman or another API Client. 
 
 * Base URL: `http://localhost:5000`
-* 404 Not Found Excpeted at Base URL
+* 404 Not Found Expected at Base URL
 
 ### Accessing SwaggerUI
 
