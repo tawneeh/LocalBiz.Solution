@@ -4,8 +4,9 @@ namespace APILocalBiz.Models
   {
     public int ShopId { get; set; }
     public string Name { get; set; }
+    public string Phone { get; set; }
     public string Specialty { get; set; }
-    public int Phone { get; set; }
+    public bool Recommended { get; set; }
 
   }
 }
