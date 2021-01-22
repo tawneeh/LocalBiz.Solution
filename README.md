@@ -3,13 +3,13 @@
 #### _C# API Solo Project For Epicodus_ 
 #### _DATE 01.22.2021_
 
-#### By _**Tawnee Harris**_
+#### ✒️ By _**Tawnee Harris**_
 
-## Description
+## 	📙 Description
 
 This application includes a custom built API with seeded data and full CRUD functionality via API endpoints.
 
-## Setup/Installation Requirements
+## ⚙️ Setup/Installation Requirements
 
 Software Requirements
 * An internet browser of your choice; I prefer Chrome
@@ -50,7 +50,7 @@ Launch this Application
 * Then, in the same API project folder, type `dotnet build` into the terminal followed by `dotnet run`
 * Peruse full CRUD functionality via Postman or other API Client
 
-## API Documentation
+## 	📝 API Documentation
 
 Feel free to naviagte through the API endpoints via Postman or another API Client. 
 
@@ -60,15 +60,15 @@ Base URL: `http://localhost:5000`
 
 Launch the project from the APILocalBiz project folder by typing `dotnet run` into the terminal. Input `http://localhost:5000/swagger` to view and interact with the Swashbuckle SwaggerUI.
 
-## Known Bugs
+## 🐛 Known Bugs
 
 This application currently does not include a Client side project. 
 
-## Support and contact details
+## 📫 Support and contact details
 
 Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
-## Technologies Used
+## 💾 Technologies Used
 
 * C#
 * Swagger UI
@@ -78,8 +78,8 @@ Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 * MySql Workbench
 * Postman
 
-### License
+<br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2021 **_Tawnee Harris_**
+Copyright (c) 2021 **_Tawnee Harris_** ⚖️
