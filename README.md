@@ -1,4 +1,4 @@
-# _Local Business Lookup_ 
+# _Local Business Lookup_
 
 #### _C# API Solo Project For Epicodus_ 
 #### _DATE 01.22.2021_
@@ -54,15 +54,24 @@ Launch this Application
 
 Feel free to naviagte through the API endpoints via Postman or another API Client. 
 
-Base URL: `http://localhost:5000`
+* Base URL: `http://localhost:5000`
+* 404 Not Found Excpeted at Base URL
 
-#### Accessing SwaggerUI
+### Accessing SwaggerUI
 
 Launch the project from the APILocalBiz project folder by typing `dotnet run` into the terminal. Input `http://localhost:5000/swagger` to view and interact with the Swashbuckle SwaggerUI.
 
+#### Swagger UI Screenshot
+
+<center>
+<img style="width: 50% height: 50%" src="./ReadMeAssets/SwaggerUI.png">
+</center>
+
+<br>
+
 ## 🐛 Known Bugs
 
-This application currently does not include a Client side project. 
+This application currently does not include a Client side. 
 
 ## 📫 Support and contact details
 
