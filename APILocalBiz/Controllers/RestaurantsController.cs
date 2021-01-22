@@ -16,5 +16,9 @@ namespace APILocalBiz.Controllers
     {
       _db = db;
     }
+
+    // GET api/restaurants
+    [HttpGet]
+    
   }
 }
