@@ -25,7 +25,7 @@ Open by Downloading or Cloning
 * Or clone the repository
 
 AppSettings
-* This project requires an AppSettings file. Create your `appsettings.json` file in the API project directory `APILocalBiz`. 
+* This project requires an AppSettings file. Create your `appsettings.json` file in the API project directory `APILocalBiz`
 * Format your `appsettings.json` file as follows, including your unique password that was created at MySqlWorkbench installation:
 ```
 {
@@ -43,11 +43,11 @@ AppSettings
 * Update the Server, Port, and User ID as needed.
 
 Import Database using Entity Framework Core
-* Navigate to LocalBiz.Solution/APILocalBiz and type `dotnet ef database update` into the terminal to create your database tables.
+* Navigate to `LocalBiz.Solution/APILocalBiz` and type `dotnet ef database update` into the terminal to create your database tables.
 
 Launch this Application
-* Navigate to LocalBiz.Solution/APILocalBiz and type `dotnet restore` into the terminal
-* Then, in the same API project folder, type `dotnet build` into the terminal followed by `dotnet run`
+* Navigate to `LocalBiz.Solution/APILocalBiz` and type `dotnet restore` into the terminal
+* Then, in the same API project directory, type `dotnet build` into the terminal followed by `dotnet run`
 * Peruse full CRUD functionality via Postman or another API Client
 
 ## 	📝 API Documentation
@@ -66,7 +66,7 @@ Feel free to navigate through the API endpoints via Postman or another API Clien
 
 ### Accessing SwaggerUI
 
-Launch the project from the APILocalBiz project folder by typing `dotnet run` into the terminal. Input `http://localhost:5000/swagger` to view and interact with the Swashbuckle SwaggerUI.
+Launch the project from the `APILocalBiz` project directory by typing `dotnet run` into the terminal. Input `http://localhost:5000/swagger` to view and interact with the Swashbuckle SwaggerUI.
 
 #### Swagger UI Screenshot
 
