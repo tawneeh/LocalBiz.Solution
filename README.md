@@ -52,10 +52,16 @@ Launch this Application
 
 ## 	📝 API Documentation
 
-Feel free to navigate through the API endpoints via Postman or another API Client. 
+Feel free to navigate through the API endpoints via Postman or another API Client.
 
-* Base URL: `http://localhost:5000`
-* 404 Not Found Expected at Base URL
+* API List of Shops: `http://localhost:5000/api/shops`
+* API List of Restaurants: `http://localhost:5000/api/restaurants`
+
+### Documentation Referenced for Swashbuckle Integration
+
+* [Microsoft Docs: Swagger Overview](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-5.0)
+* [Microsoft Docs: Get Started with Swashbuckle](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio)
+* [GitHub Swashbuckle.AspNetCore README.md](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/blob/master/README.md)
 
 ### Accessing SwaggerUI
 
