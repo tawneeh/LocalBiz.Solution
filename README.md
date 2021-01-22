@@ -56,6 +56,7 @@ Feel free to navigate through the API endpoints via Postman or another API Clien
 
 * API List of Shops: `http://localhost:5000/api/shops`
 * API List of Restaurants: `http://localhost:5000/api/restaurants`
+* All API endpoints illustrated in the SwaggerUI screenshot below
 
 ### Documentation Referenced for Swashbuckle Integration
 
