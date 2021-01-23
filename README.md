@@ -78,18 +78,17 @@ Launch the project from the `APILocalBiz` project directory by typing `dotnet ru
 
 ### Note on Versioning
 
-Implementing Versioning is always a good idea in the ever changing world of tech. The default version called will be Version 1.
+Implementing Versioning is always a good idea in the ever changing world of tech. I will be adding Versioning to this project in due time.
 
-The ShopsV1Controller Get route returns the full list of Shops. Version 2, on the other hand, is queryable.
+#### Documentation Reference for Future Versioning Integration
 
-### Documentation Referenced for Versioning Integration
-
-* [Tutorial](https://neelbhatt.com/2018/04/21/api-versioning-in-net-core/)
 * [Versioning Package](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Versioning/4.1.0)
+* [Tutorial 1](https://neelbhatt.com/2018/04/21/api-versioning-in-net-core/)
+* [Tutorial 2](https://dev.to/99darshan/restful-web-api-versioning-with-asp-net-core-1e8g)
 
 ## 🐛 Known Bugs
 
-This application currently does not include a Client side. 
+This application currently does not include a Client side or API Versioning. 
 
 ## 📫 Support and contact details
 
