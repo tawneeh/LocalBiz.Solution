@@ -1,5 +1,3 @@
-using System;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +8,6 @@ namespace APILocalBiz.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  [ApiVersion("1.0")]
-  [ApiVersion("1.1")]
   public class ShopsController : ControllerBase
   {
     private APILocalBizContext _db;
@@ -23,14 +19,6 @@ namespace APILocalBiz.Controllers
 
     // GET api/shops
     [HttpGet]
-    public ActionResult<IEnumerable<Shop>> Get()
-    {
-      return _db.Shops.ToList();
-    }
-
-    // GET api/shops
-    [HttpGet]
-    [MapToApiVersion("1.1")]
     public ActionResult<IEnumerable<Shop>> Get(string name, string phone, string specialty, bool recommended)
     {
       var query = _db.Shops.AsQueryable();
@@ -84,6 +72,6 @@ namespace APILocalBiz.Controllers
         var shopToDelete = _db.Shops.FirstOrDefault(entry => entry.ShopId == id);
         _db.Shops.Remove(shopToDelete);
         _db.SaveChanges();
-      }
+      }   
   }
 }

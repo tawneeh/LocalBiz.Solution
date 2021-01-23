@@ -28,11 +28,6 @@ namespace APILocalBiz
           c.SwaggerDoc("v1", new OpenApiInfo { Title = "APILocalBiz", Version = "v1" });
       });
       services.AddSwaggerGenNewtonsoftSupport();
-      services.AddApiVersioning(o => {
-      o.ReportApiVersions = true;
-      o.AssumeDefaultVersionWhenUnspecified = true;
-      o.DefaultApiVersion = new ApiVersion(1, 0);
-      });
     }
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
