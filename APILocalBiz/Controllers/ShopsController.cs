@@ -28,7 +28,7 @@ namespace APILocalBiz.Controllers
       return _db.Shops.ToList();
     }
 
-    // GET api/shops -- might be different
+    // GET api/shops
     [HttpGet]
     [MapToApiVersion("1.1")]
     public ActionResult<IEnumerable<Shop>> Get(string name, string phone, string specialty, bool recommended)
