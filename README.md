@@ -76,6 +76,17 @@ Launch the project from the `APILocalBiz` project directory by typing `dotnet ru
 
 <br>
 
+### Note on Versioning
+
+Implementing Versioning is always a good idea in the ever changing world of tech. The default version called will be Version 1.
+
+The ShopsV1Controller Get route returns the full list of Shops. Version 2, on the other hand, is queryable.
+
+### Documentation Referenced for Versioning Integration
+
+* [Tutorial](https://neelbhatt.com/2018/04/21/api-versioning-in-net-core/)
+* [Versioning Package](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Versioning/4.1.0)
+
 ## 🐛 Known Bugs
 
 This application currently does not include a Client side. 
@@ -89,6 +100,7 @@ Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 * C#
 * Swagger UI
 * Swashbuckle
+* Microsoft.AspNetCore.Mvc.Versioning
 * Entity Framework Core
 * MySql
 * MySql Workbench
