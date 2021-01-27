@@ -58,6 +58,60 @@ Feel free to navigate through the API endpoints via Postman or another API Clien
 * API List of Restaurants: `http://localhost:5000/api/restaurants`
 * All API endpoints illustrated in the SwaggerUI screenshot below
 
+### Certain information is also available via query.
+
+Shop Path Parameters
+
+| Parameter | Type | Description |
+| :---: | :---: | --- |
+| name | string | Return matches by name
+| specialty | string | Return matches by specialty
+| recommended | bool | Return restaurants either recommended: true or recommended: false |
+
+<br>
+
+Example Query by Shop Name
+```
+http://localhost:5000/api/shops/?name=Francesca's
+```
+
+JSON Response
+```
+    {
+        "shopId": 1,
+        "name": "Francesca's",
+        "phone": "425-775-4712",
+        "specialty": "Beautiful Dresses",
+        "recommended": true
+    }
+```
+
+Restaurant Path Parameters
+
+| Parameter | Type | Description |
+| :---: | :---: | --- |
+| name | string | Return matches by name
+| cuisine | string | Return matches by cuisine
+| recommended | bool | Return restaurants either recommended: true or recommended: false |
+
+<br>
+
+Example Query by Restaurant Cuisine
+```
+http://localhost:5000/api/restaurants/?cuisine=steak
+```
+
+JSON Response
+```
+    {
+        "restaurantId": 1,
+        "name": "El Gaucho",
+        "phone": "206-728-1337",
+        "cuisine": "Steak",
+        "recommended": true
+    }
+```
+
 ### Documentation Referenced for Swashbuckle Integration
 
 * [Microsoft Docs: Swagger Overview](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-5.0)
